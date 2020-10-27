@@ -145,9 +145,13 @@ C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1
 C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\CrudEntityFramework.csproj.CoreCompileInputs.cache
-C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\CrudEntityFramework.MvcApplicationPartsAssemblyInfo.cache
 C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
 C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
 C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
 C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs
+C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1\NETCore.MailKit.dll
+C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\CrudEntityFramework.csproj.CoreCompileInputs.cache
+C:\Proyectos web\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\CrudEntityFramework.MvcApplicationPartsAssemblyInfo.cache

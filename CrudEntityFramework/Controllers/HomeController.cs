@@ -8,6 +8,8 @@ using Microsoft.Extensions.Logging;
 using CrudEntityFramework.Models;
 using CrudEntityFramework.Data;
 using Microsoft.EntityFrameworkCore;
+using MimeKit;
+using MailKit.Net.Smtp;
 
 namespace CrudEntityFramework.Controllers
 {
@@ -22,7 +24,25 @@ namespace CrudEntityFramework.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Usuario.ToListAsync());
+            ///Para envío de correo
+            var mensaje = new MimeMessage();
+            mensaje.From.Add(new MailboxAddress("Test envio email", "angrdzrayo@gmail.com"));
+            mensaje.To.Add(new MailboxAddress("Test enviado", "ardzrayo18@gmail.com"));
+            mensaje.Subject = "Test email asp.net core";
+            mensaje.Body = new TextPart("plain")
+            {
+                Text="Hola saludos desde crud"
+            };
+
+            using (var cliente = new SmtpClient())
+            {
+                cliente.Connect("smtp.gmail.com", 587);
+                cliente.Authenticate("angrdzrayo@gmail.com","Die22coK");
+                cliente.Send(mensaje);
+                cliente.Disconnect(true);
+            }
+
+                return View(await _context.Usuario.ToListAsync());
         }
 
         [HttpGet]
